@@ -69,7 +69,7 @@ export default {
 				},
 				luxury: {
 					navy: '#1a2b4c',
-					blue: '#3b82f6',
+					gold: '#d4af37',
 					cream: '#faf8f3',
 					charcoal: '#2c3e50'
 				}
