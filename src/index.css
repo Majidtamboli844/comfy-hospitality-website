@@ -99,7 +99,7 @@
 
 @layer components {
   .hero-gradient {
-    background: linear-gradient(135deg, rgba(26, 43, 76, 0.95), rgba(44, 62, 80, 0.8)), 
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.95), rgba(44, 62, 80, 0.8)), 
                 url('https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=1920&h=1080&fit=crop') center/cover;
   }
 }
