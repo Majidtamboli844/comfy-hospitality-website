@@ -1,28 +1,28 @@
 
-import { Bed, Utensils, Wine, Bell } from "lucide-react";
+import { Truck, Package, Clock, Shield } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const Services = () => {
   const services = [
     {
-      icon: <Bed className="h-8 w-8" />,
-      title: "Luxury Accommodations",
-      description: "Premium rooms and suites with world-class amenities and personalized service."
+      icon: <Truck className="h-8 w-8" />,
+      title: "Fast Delivery",
+      description: "Same-day and next-day delivery options for all premium hospitality products."
     },
     {
-      icon: <Utensils className="h-8 w-8" />,
-      title: "Fine Dining",
-      description: "Gourmet cuisine crafted by renowned chefs using the finest ingredients."
+      icon: <Package className="h-8 w-8" />,
+      title: "Secure Packaging",
+      description: "Professional packaging ensures your luxury items arrive in perfect condition."
     },
     {
-      icon: <Wine className="h-8 w-8" />,
-      title: "Beverage Services",
-      description: "Curated wine collections and premium spirits from around the world."
+      icon: <Clock className="h-8 w-8" />,
+      title: "Flexible Scheduling",
+      description: "Choose your preferred delivery time slot to fit your schedule perfectly."
     },
     {
-      icon: <Bell className="h-8 w-8" />,
-      title: "Concierge",
-      description: "24/7 personalized assistance for all your hospitality needs and requests."
+      icon: <Shield className="h-8 w-8" />,
+      title: "Quality Guarantee",
+      description: "100% satisfaction guarantee on all delivered hospitality products and services."
     }
   ];
 
@@ -31,10 +31,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-serif font-bold text-primary mb-4">
-            Our Services
+            Delivery Services
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive hospitality solutions designed to exceed expectations
+            Professional doorstep delivery for all your hospitality needs
           </p>
         </div>
         
